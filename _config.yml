@@ -1,0 +1,36 @@
+# Site settings
+## Change the values as needed.
+title: Bourou Automatisation des tests
+email: adadiagne08@yahoo.fr
+description: "A jekyll theme implementing material design by using muicss."
+keywords: "jekyll, theme, material, muicss"
+#url: "http://bitwiser.in/bitwiser-material" # the base hostname & protocol for your site
+url: "bourou-automatisation-des-tests" # the base hostname & protocol for your site
+baseurl: "" # the subpath of your site, e.g. /blog/
+paginate: 5
+paginate_path: "page:num"
+# Build settings
+markdown: kramdown
+highlighter: pygments
+sass:
+  sass_dir: _sass
+  style: :compressed
+links:
+  facebook: Pi Ndiaye
+  twitter: adadiagne08
+  email: adadiagne08@yahoo.fr
+  github: adiagne/
+exclude:
+  - bower_components
+  - README.md
+full_name: Adama Diagne
+
+##set this to enable disqus commenting
+disqus: adiagne
+comments: true
+
+##set this to enable google analytics
+#ga_id: analyticsID
+#ga_domain: bitwiser.in
+# Gems
+plugins: [jekyll-paginate]
